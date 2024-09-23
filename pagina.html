@@ -4,29 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RelaxCorporation</title>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
 </head>
 
 <body>
-    <h1>RelaxCorporation</h1>
-    <img src="header.jpg" >
+    <h1><strong>Relax</strong>Corporation</h1>
+    <img src="header.jpg">
 
-  
+
     <div class="container d-flex p-4"></div>
-        <!-- Menú lateral -->
-        <div class="menu-container">
-            <h3 class="menu-header text-end">main menu</h3>
-            <ul class="menu-list">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Links</a></li>
-            </ul>
-        </div>
-    </div>  
+
+    <div class="container">
     
+        <!-- Usamos d-flex para organizar el menú y el contenido en la misma fila -->
+        <div class="d-flex">
+            <!-- Menú a la izquierda con un ancho específico -->
+            <div class="menu-container" style="min-width: 200px; left: 20px;">
+                <h3 class="menu-header text-end">main menu</h3>
+                <ul class="menu-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Links</a></li>
+                </ul>
+            </div>
+
+            <!-- Contenido al lado derecho del menú -->
+            <div class="content ms-4">
+                <h2>Welcome</h2>
+                <hr>
+                <p><a href="#">Lorem ipsum</a> dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <h2>Lorem ipsum</h2>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                    <a href="#">voluptate</a> velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                    cupidatat
+                    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br> <br>
+
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                    laboris nisi ut aliquip ex ea commodo consequat. <a href="#">Duis aute irure</a> dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Copyright © 2024 | All Rights Reserved</p>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>

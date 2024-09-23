@@ -16,6 +16,12 @@ h1 {
     color: #0099cc;
 }
 
+h2 {
+    text-align: right;
+    font-size: 24px;
+    color: #0099cc;
+}
+
 .header-image img {
     width: 100%;
     height: auto;
@@ -24,7 +30,7 @@ h1 {
 /* Contenedor general */
 .container {
     display: flex;
-    padding: 20px;
+    padding: 0px;
 }
 
 /* Menú lateral */
@@ -32,8 +38,8 @@ h1 {
     width: 200px;
     border: 1px solid #b3b3b3;
     padding: 10px;
-    margin-right: 20px;
-    
+    margin-right: 0px;
+
 }
 
 .menu-header {
@@ -41,8 +47,7 @@ h1 {
     padding-bottom: 10px;
     font-size: 14px;
     color: #0099cc;
-    text-transform: uppercase;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 2px dashed #ccc;
     text-align: right;
 }
 
@@ -50,13 +55,14 @@ h1 {
     list-style-type: none;
     padding: 0;
     margin: 10px 0;
-    border-left: 5px solid #b3b3b3; /* Borde a la izquierda en cada elemento del menú */
+    border-left: 5px solid #b3b3b3;
+    /* Borde a la izquierda en cada elemento del menú */
     padding-left: 9px;
 }
 
 .menu-list li {
     margin-bottom: 10px;
-    
+
 }
 
 .menu-list a {
@@ -92,4 +98,9 @@ footer {
     background-color: #f0f0f0;
     border-top: 2px dashed #ccc;
     color: #666;
+}
+
+hr {
+    color: aqua;
+    margin: 3px;
 }
