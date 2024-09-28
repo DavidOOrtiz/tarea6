@@ -5,32 +5,33 @@ body {
     padding: 0;
 }
 
-header {
-    background-color: #f0f0f0;
-    padding: 10px;
-}
-
 h1 {
     margin: 0;
-    font-size: 24px;
+    font-size: 35px;
     color: #0099cc;
+    text-align: left;
+    padding-left: 20px;
 }
 
 h2 {
     text-align: right;
     font-size: 24px;
     color: #0099cc;
+    margin-top: 30px;
 }
 
 .header-image img {
     width: 100%;
     height: auto;
+    display: block;
 }
 
-/* Contenedor general */
-.container {
+/* Contenedor principal que organiza menú y contenido */
+.wrapper {
     display: flex;
-    padding: 0px;
+    /* Usa flexbox para organizar los elementos en línea */
+    margin: 0;
+    padding: 20px;
 }
 
 /* Menú lateral */
@@ -38,8 +39,7 @@ h2 {
     width: 200px;
     border: 1px solid #b3b3b3;
     padding: 10px;
-    margin-right: 0px;
-
+    background-color: #fff;
 }
 
 .menu-header {
@@ -48,7 +48,7 @@ h2 {
     font-size: 14px;
     color: #0099cc;
     border-bottom: 2px dashed #ccc;
-    text-align: right;
+    text-align: left;
 }
 
 .menu-list {
@@ -56,13 +56,11 @@ h2 {
     padding: 0;
     margin: 10px 0;
     border-left: 5px solid #b3b3b3;
-    /* Borde a la izquierda en cada elemento del menú */
     padding-left: 9px;
 }
 
 .menu-list li {
     margin-bottom: 10px;
-
 }
 
 .menu-list a {
@@ -75,19 +73,21 @@ h2 {
     text-decoration: underline;
 }
 
-/* Contenido principal */
-.main-content {
+/* Contenedor de contenido */
+.content-container {
     flex: 1;
+    /* Para que el contenido ocupe el resto del espacio */
+    padding-left: 20px;
+    margin-left: 20px;
+    /* Espacio adicional al lado del menú */
 }
 
-.content-section {
-    margin-bottom: 20px;
+.content-container h2 {
+    margin-top: 20px;
 }
 
-.content-section h2 {
-    color: #0099cc;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 10px;
+.content-container p {
+    margin-top: 20px;
 }
 
 /* Footer */
@@ -98,9 +98,16 @@ footer {
     background-color: #f0f0f0;
     border-top: 2px dashed #ccc;
     color: #666;
+    margin: 50px;
 }
 
 hr {
-    color: aqua;
-    margin: 3px;
+    border: 0;
+    /* Elimina el estilo por defecto */
+    height: 3px;
+    /* Controla el grosor de la línea */
+    background-color: #086382;
+    /* Establece el color de la línea */
+    margin: 10px 0;
+    /* Ajusta el margen superior e inferior */
 }
