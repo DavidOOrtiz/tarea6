@@ -59,8 +59,10 @@ h2 {
     list-style-type: none;
     padding: 0;
     margin: 10px 0;
-    border-left: 5px solid #b3b3b3;
-    padding-left: 9px;
+    /* Ajuste en border-left para mover más a la izquierda */
+    border-left: 2px solid #b3b3b3;
+    padding-left: 5px;
+    /* Disminuir padding para mayor ajuste */
 }
 
 .menu-list li {
@@ -102,9 +104,10 @@ footer {
 
 }
 
-hr {
+.custom-hr {
     border: 0;
-    height: 3px;
-    background-color: #086382;
-    margin: 10px;
+    border-top: 2px solid #005080;
+    /* Azul oscuro similar al de la imagen */
+    position: relative;
+    margin: 0;
 }
