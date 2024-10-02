@@ -40,7 +40,7 @@ h2 {
     border: 1px solid #b3b3b3;
     margin: 0px;
     padding: 10px;
-    background-color: #fff;
+    background-color: #f7f7f7;
     flex-shrink: 0;
     box-sizing: border-box;
     margin-bottom: 0;
@@ -64,7 +64,7 @@ h2 {
 }
 
 .menu-list li {
-    margin-bottom: 10px;
+    margin-bottom: 3px;
 }
 
 .menu-list a {
@@ -95,7 +95,7 @@ footer {
     text-align: center;
     padding: 10px;
     font-size: 12px;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     border-top: 2px dashed #ccc;
     color: #666;
     margin: 50px 0 0 0;
